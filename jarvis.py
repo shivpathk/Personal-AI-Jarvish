@@ -118,13 +118,6 @@ if __name__ == '__main__':
            speak('wait a moment please')
            speak('here is the score')
            result = webbrowser.open("https://m.cricbuzz.com/live-cricket-scores/")
-        elif "chod" in query:
-           speak('behen ke lawde gali mat de varna aapki maa chod dungi')
-        elif "girlfriend" in query:
-           speak('kutiya banegi aapki Girlfriend')
-        elif "deepak" in query:
-           speak('Sorry deepak sir , good morning deepak')
-
         elif "square" in query:
            speak(f'the square of 29 is {29*29}')
         elif "cube" in query:
@@ -140,3 +133,6 @@ if __name__ == '__main__':
         elif "buy jarvis" in query:
           speak("bye sir Have a nice day")
           break
+        # elif "buy jarvis" in query:
+        #   more commands whatever you want jarvish to do 
+        #   break
